@@ -5,7 +5,7 @@ import { CameraControls } from "@react-three/drei";
 
 const Experience = () => {
   return (
-    <Canvas>
+    <Canvas gl={{ pixelRatio: 2 }}>
       <CameraControls />
       <Scene />
     </Canvas>
